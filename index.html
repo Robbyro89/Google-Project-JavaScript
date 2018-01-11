@@ -10,7 +10,6 @@
 <!-- Hello !
 Bienvenue sur notre page de style, profitez-bien, bisous <3
 Fanny, Fabien et Leila--> 
-
 <body>
 
 <!-- Ceci est notre header --> 
@@ -27,19 +26,21 @@ Fanny, Fabien et Leila-->
 	</header>
 
 <!-- Ceci est notre grosse section centrale avec logo, barre de recherche, bouttons et liens langues --> 
+<button type="button" id="bouton" onclick="clickBouton()"> AFFICHER LES<br>ELEMENTS<br>CENTRAUX </button>
+<div id="secret">
 	<section>
-
 <!-- Logo --> 
 		<img src="https://www.google.fr/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="logo Google" id="logo"/>
 
-<!-- Barre de recherche --> 
+<!-- Barre de recherche -->
 		<div class="Barre">
-			<input type="text" name="Rechercher"  autocomplete="off" id = "texte">
-			</input> </div>
+			<input type="text" name="Rechercher"  autocomplete="off" id="texte">
+			</input> 
+		</div>
 
 <!-- Boutons --> 
 		<ul class="boutons">
-			<li class="Gogole">Rechercher Gogole</li>
+			<li class="Gogole" onclick="resultatR()">Rechercher Gogole</li>
 			<li class="Gogole">J'ai de la chance</li>
 		</ul>
 
@@ -54,26 +55,28 @@ Fanny, Fabien et Leila-->
 			</ul>
 		</div>
 	</section>
+</div>
 
 <!-- Notre footer --> 
-	<footer>
+	<footer class="footer">
 		<div class="pays_de_login"><p>Indonesie</p>
 		</div>
 
-		<div class="The_End">
-			<ul>
-				<li class="pub">Publicite</li>
-				<li class="lgs">Entreprise</li>
-				<li class="lgs">A Propos</li>
-			</ul>
+			<div class="The_End">
+				<ul>
+					<li class="pub">Publicite</li>
+					<li class="lgs">Entreprise</li>
+					<li class="lgs">A Propos</li>
+				</ul>
 
-			<ul>
-				<li class="lgs">Confidentialite</li>
-				<li class="lgs">Conditions</li>
-				<li class="para">Parametres</li>
-			</ul>
-		</div>
+				<ul>
+					<li class="lgs">Confidentialite</li>
+					<li class="lgs">Conditions</li>
+					<li class="para">Parametres</li>
+				</ul>
+			</div>
 	</footer>
+<script src="script.js"></script>
 </body>
 </html>
 

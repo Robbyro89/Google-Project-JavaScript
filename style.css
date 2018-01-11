@@ -37,7 +37,13 @@ nav ul
 {
 	padding: 10px;
 }
-
+button
+{
+display: flex;
+margin: auto;
+justify-content: center;
+font-size: 40px
+}
 /* Ceci est notre section centrale avec logo, barre de recherche et texte sur les langues */
 section
 {
@@ -128,8 +134,13 @@ footer
     bottom: 0;
     width : 100%;
     justify-content: flex-start;
-}
 
+}
+.footer
+{
+left: 0px;
+right: 0px;
+}
 
 .The_End
 {
